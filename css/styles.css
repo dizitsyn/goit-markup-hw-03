@@ -375,6 +375,10 @@ body {
   margin-right: 30px;
 }
 
+.project-item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .project-item p {
   padding-bottom: 20px;
 }
