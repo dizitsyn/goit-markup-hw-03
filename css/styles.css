@@ -43,7 +43,14 @@ body {
 }
 
 .header {
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   border-bottom: 1px solid #ececec;
+}
+
+.white-cont {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .do-flex {
@@ -197,7 +204,6 @@ body {
 /* Меняем шрифт героя */
 
 .hero {
-  margin-bottom: 94px;
   text-align: center;
 }
 
@@ -296,10 +302,6 @@ body {
   display: block;
 }
 
-.wedo {
-  margin-bottom: 94px;
-}
-
 .wedo-list {
   display: flex;
   justify-content: space-between;
@@ -345,8 +347,8 @@ body {
 
 /* Страница портфолио */
 .portfolio {
-  margin-top: 100px;
-  margin-bottom: 114px;
+  padding-top: 100px;
+  padding-bottom: 114px;
 }
 
 .filter-block {
@@ -393,6 +395,6 @@ body {
 
 .company-filter {
   padding: 24px;
-  border: 1px solid black;
+  border: 1px solid #eeeeee;
   border-top: none;
 }
