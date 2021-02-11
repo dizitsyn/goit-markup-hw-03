@@ -41,9 +41,35 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+
+.do-flex {
+  display: flex;
+}
+
+.site-nav ul {
+  display: flex;
+}
+
+.site-nav .address-item:not(:last-child),
+.site-nav .nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .nav-item .link,
+.site-nav .address {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav.do-flex,
+.container.do-flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-nav.do-flex ul {
+  margin-left: 93px;
 }
 
 .team h2,
@@ -86,6 +112,8 @@ body {
 
 /* Шрифт лого */
 .logo {
+  /* margin-top: 25px; */
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -113,7 +141,6 @@ body {
   text-decoration: none;
 }
 
-/* .site-nav .link:hover, */
 .site-nav .link:focus,
 .site-nav .link:hover,
 .site-nav .address:hover,
@@ -241,6 +268,18 @@ body {
   margin-bottom: 10px;
 }
 
+.principles-list {
+  display: flex;
+}
+
+.principles-list .item {
+  width: 270px;
+}
+
+.principles-list .item:not(:last-child) {
+  margin-left: 30px;
+}
+
 .wedo-title {
   margin-bottom: 50px;
 }
@@ -251,6 +290,11 @@ body {
 
 .wedo {
   margin-bottom: 94px;
+}
+
+.wedo-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team {
@@ -265,6 +309,11 @@ body {
 .team img {
   display: block;
   margin-bottom: 30px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team ul {
@@ -299,6 +348,20 @@ body {
   margin-bottom: 56px;
 }
 
+.filter.filtr-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.filter.filtr-flex li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .projects img {
   display: block;
   margin-bottom: 20px;
@@ -308,10 +371,24 @@ body {
   margin-bottom: 4px;
 }
 
+.project-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .project-item p {
   padding-bottom: 20px;
 }
 
 .project-item {
   margin-bottom: 20px;
+}
+
+.item-link.filter {
+  text-align: left;
+  margin-left: 27px;
+}
+
+.item-link.company {
+  text-align: left;
+  margin-left: 27px;
 }
