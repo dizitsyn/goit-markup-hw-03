@@ -48,11 +48,6 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.white-cont {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .do-flex {
   display: flex;
 }
@@ -275,6 +270,7 @@ body {
 }
 
 .principles {
+  padding-top: 94px;
   margin-bottom: 94px;
 }
 
@@ -294,6 +290,9 @@ body {
   margin-left: 30px;
 }
 
+.wedo {
+  padding-bottom: 94px;
+}
 .wedo-title {
   margin-bottom: 50px;
 }
